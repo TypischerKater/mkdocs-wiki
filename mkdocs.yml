@@ -1,18 +1,41 @@
 site_name: TypischerKater's Wiki
-site_url: https://mydomain.org/mysite
+site_url: https://wiki.brunosolf.de/
+site_author: Bruno Solf
+
+# Repository
+repo_name: typischerkater/mkdocs-wiki
+repo_url: https://github.com/typischerkater/mkdocs-wiki
+
+# Copyright
+copyright: Copyright &copy; 2025 - 2025 Bruno Solf
+
 theme:
   name: material
-  palette: 
-    # Palette toggle for light mode
-    - scheme: default
+  icon:
+    logo: logo
+  palette:
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
+        icon: material/link
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -32,6 +55,13 @@ plugins:
   - search
   - tags:
       tags_file: tags.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TypischerKater/
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/typischerkater/
 
 markdown_extensions:
   - pymdownx.highlight:
