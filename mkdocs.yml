@@ -53,6 +53,7 @@ nav:
   - Computer:
     - Delete and remove the complete deleted files history list from for example recuva: computer/delete-and-remove-the-complete-deleted-files-history-list-from-for-example-recuva.md
     - HDD shows less space available that is actually used: computer/hdd-shows-less-space-available-that-is-actually-used.md
+    - Format a Hard Drive & Delete Recovery Partitions: computer/format-a-hard-drive-_-delete-recovery-partitions.md
   - Home Server:
     - Update Portainer: home-server/update-portainer.md
   - Coding:
