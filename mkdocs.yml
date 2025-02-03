@@ -80,12 +80,14 @@ nav:
     - Passthrough HDD to LXC container Proxmox: proxmox/passthrough-hdd-to-lxc-container-proxmox.md
     - Add Proxmox Backup to store the LXC Backups on a NAS: proxmox/add-proxmox-backup-to-store-the-lxc-backups-on-a-nas.md
     - Install Docker on an LXC Container: proxmox/install-docker-on-an-lxc-container.md
+    - Mount a shared folder from NAS to Proxmox: proxmox/mount-a-shared-folder-from-nas-to-proxmox.md
   - Computer:
     - Delete and remove the complete deleted files history list from for example recuva: computer/delete-and-remove-the-complete-deleted-files-history-list-from-for-example-recuva.md
     - HDD shows less space available that is actually used: computer/hdd-shows-less-space-available-that-is-actually-used.md
     - Format a Hard Drive & Delete Recovery Partitions: computer/format-a-hard-drive-_-delete-recovery-partitions.md
   - Home Server:
     - Update Portainer: home-server/update-portainer.md
+    - Install Docker on Ubuntu 24.04 LTS: home-server/install-docker-on-ubuntu-24_04-lts.md
   - Coding:
     - Update Angular dependencies all at once: coding/update-angular-dependencies-all-at-once.md
     - SQL Backup with Blobs can not be reimported: coding/sql-backup-with-blobs-can-not-be-reimported.md
