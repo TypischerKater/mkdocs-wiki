@@ -74,6 +74,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Docker:
+    - Setup Excellus: docker/setup-excellus.md
+    - Setup MyMovie: docker/setup-mymovie.md
   - Proxmox:
     - Create a LXC Container on Proxmox: proxmox/create-a-lxc-container-on-proxmox.md
     - No Backup on unprivileged LXC container possible: proxmox/no-backup-on-unprivileged-lxc-container-possible.md
