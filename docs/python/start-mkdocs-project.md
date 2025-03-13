@@ -24,7 +24,7 @@ cd venv/Scripts
 activate
 ```
 
-- now in the console C:\.... should be `(venv)`
+- now in the console it should look like `(venv) C:\Git\mkdocs-wiki>`
 
 - start the dev server so you can see changes you make but make sure that you are in the folder where the `mkdocs.yml` file is located
 ```bash
