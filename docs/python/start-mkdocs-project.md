@@ -7,31 +7,28 @@ tags:
 
 Clone project
 
-Update your machine to be up to date
-```bash
-  sudo apt update && apt upgrade -y && reboot
-```
-
-- Go to project folder `mkdocs-wiki` where also the readme etc is
+- Make sure that `mkdocs` is installed if not you can use `pip install mkdocs` to install the package
+- Make also sure that `mkdocs-material` is installed if not you can use `pip install mkdocs-material` to install the package
+- Next go to project folder `mkdocs-wiki` where also the readme etc is
 - Create python virtual environment
 ```bash
-  python -m venv venv
+python -m venv venv
 ```
 
 - Activate virtual environment
 ```bash
-  cd venv/Scripts
+cd venv/Scripts
 ```
 
 ```bash
-  activate
+activate
 ```
 
-- now vor C:\.... should be `(venv)`
+- now in the console C:\.... should be `(venv)`
 
-- start the dev server so you can see changes you make
+- start the dev server so you can see changes you make but make sure that you are in the folder where the `mkdocs.yml` file is located
 ```bash
-  mkdocs serve
+mkdocs serve
 ```
 
 ## Commands

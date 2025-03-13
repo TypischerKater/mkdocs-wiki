@@ -7,17 +7,17 @@ tags:
 
 Check for updates
 ```bash
-  npm i -g npm-check-updates
+npm i -g npm-check-updates
 ```
 
 Update packages and list version difference
 ```bash
-  ncu -u
+ncu -u
 ```
 
 Install updates
 ```bash
-  npm install
+npm install
 ```
 
 [Documentation Website](https://www.freecodecamp.org/news/how-to-update-npm-dependencies/)

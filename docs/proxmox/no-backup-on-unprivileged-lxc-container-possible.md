@@ -8,7 +8,7 @@ tags:
 
 Go to the shell of proxmox
 ```bash
-  nano /etc/vzdump.conf
+nano /etc/vzdump.conf
 ```
 - add this line `tmpdir: /tmp` to the vzdump default settings safe and exit now it works
 

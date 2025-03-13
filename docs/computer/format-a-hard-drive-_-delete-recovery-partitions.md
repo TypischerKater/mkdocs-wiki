@@ -7,22 +7,22 @@ tags:
 
 Open powershell with admin rights and type
 ```bash
-  diskpart
+diskpart
 ```
 
 Then list the available disks
 ```bash
-  list disk
+list disk
 ```
 
 Select the disk you want to clean for example for disk 1
 ```bash
-  select disk 1
+select disk 1
 ```
 
 Clean the disk 
 ```bash
-  clean
+clean
 ```
 
 Then go to disk manager and initilaze with gpt
