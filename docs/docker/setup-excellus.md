@@ -63,3 +63,5 @@ Next run the `docker-compose.yml` file again to update the container with the ne
 ```bash
 docker-compose up -d
 ```
+
+📖 [More Detail Excellus](https://brunosolf.de/excellus/)
