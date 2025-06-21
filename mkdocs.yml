@@ -83,7 +83,8 @@ nav:
     - Passthrough HDD to LXC container Proxmox: proxmox/passthrough-hdd-to-lxc-container-proxmox.md
     - Add Proxmox Backup to store the LXC Backups on a NAS: proxmox/add-proxmox-backup-to-store-the-lxc-backups-on-a-nas.md
     - Install Docker on an LXC Container: proxmox/install-docker-on-an-lxc-container.md
-    - Mount a shared folder from NAS to Proxmox: proxmox/mount-a-shared-folder-from-nas-to-proxmox.md
+    - Mount a shared folder from NAS to Proxmox: proxmox/mount-a-shared-folder-from-nas-to-proxmox.
+    - Expand storage from LXC Container: proxmox/expand-storage-from-lxc-container.md
   - Computer:
     - Delete and remove the complete deleted files history list from for example recuva: computer/delete-and-remove-the-complete-deleted-files-history-list-from-for-example-recuva.md
     - HDD shows less space available that is actually used: computer/hdd-shows-less-space-available-that-is-actually-used.md
