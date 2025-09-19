@@ -3,6 +3,29 @@ tags:
   - angular
 ---
 
+# Install/Update Angular global on PC
+Uninstall Angular
+```bash
+npm uninstall -g @angular/cli
+```
+
+Install Angular
+```bash
+npm install -g @angular/cli
+```
+
+# Update Angular
+
+Update Angular Core
+```bash
+ng update @angular/core
+```
+
+Update Angular Cli
+```bash
+ng update @angular/cli
+```
+
 # Update Angular dependencies all at once
 
 Check for updates
